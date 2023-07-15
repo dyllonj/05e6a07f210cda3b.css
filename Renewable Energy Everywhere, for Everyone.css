@@ -1,0 +1,48 @@
+body {
+  margin:0;
+  background-color:#f1f5f9;
+  background-repeat:no-repeat;
+  background-position:100% 0;
+  font-family:Jost
+ }
+ @media only screen and (max-width:960px) {
+  body {
+   background:#fff
+  }
+ }
+ .grecaptcha-badge {
+  visibility:hidden
+ }
+ ::-webkit-scrollbar {
+  width:10px
+ }
+ ::-webkit-scrollbar-track {
+  background:#f1f1f1;
+  border-radius:10px
+ }
+ ::-webkit-scrollbar-thumb {
+  background:#888;
+  border-radius:10px
+ }
+ ::-webkit-scrollbar-thumb:hover {
+  background:#555
+ }
+ #stepForm {
+  width:100%
+ }
+ .agreementText {
+  padding:7px;
+  margin:21px
+ }
+ p.agreementText {
+  font-family:monospace;
+  font-size:17px
+ }
+ h1.agreementText {
+  font-family:sans-serif
+ }
+ .authTermsLogo {
+  height:100px;
+  max-width:75vw
+ }
+ 
